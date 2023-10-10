@@ -21,5 +21,6 @@ export default defineConfig({
 			format: 'es', // Ensure the format is set to 'es'
 		  },
 		},
+		minify: false,
 	}
 });
