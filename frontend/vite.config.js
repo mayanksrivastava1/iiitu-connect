@@ -9,7 +9,7 @@ export default defineConfig({
 		// Get rid of the CORS error
 		proxy: {
 			"/api": {
-				target: "https://iiitu-connect.onrender.com/",
+				target: "https://iiitu-connect.onrender.com",
 				changeOrigin: true,
 				secure: false,
 			},
