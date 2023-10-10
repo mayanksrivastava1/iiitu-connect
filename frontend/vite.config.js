@@ -15,4 +15,11 @@ export default defineConfig({
 			},
 		},
 	},
+	build: {
+		rollupOptions: {
+		  output: {
+			format: 'es', // Ensure the format is set to 'es'
+		  },
+		},
+	}
 });
