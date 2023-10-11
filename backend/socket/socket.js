@@ -8,7 +8,7 @@ const app = express();
 const server = http.createServer(app);
 const io = new Server(server, {
 	cors: {
-		origin: "https://iiitu-connect.vercel.app",
+		origin: "https://iiitu-connect.netlify.app",
 		methods: ["GET", "POST"],
 	},
 });
