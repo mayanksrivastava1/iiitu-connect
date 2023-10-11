@@ -23,13 +23,13 @@ This project was built using Vite, React, Chakra UI, Node.js, Express.js, and So
 - **Socket.io**: A library that enables real-time, bi-directional communication between web clients and servers.
 - ## Screenshots
 
-![Screenshot 1](images/screenshot1.png)
-![Screenshot 2](images/screenshot2.png)
-![Screenshot 3](images/screenshot3.png)
-![Screenshot 4](images/screenshot1.png)
-![Screenshot 5](images/screenshot2.png)
-![Screenshot 6](images/screenshot3.png)
-![Screenshot 7](images/screenshot1.png)
+![Screenshot 1](1.png)
+![Screenshot 2](2.png)
+![Screenshot 3](3.png)
+![Screenshot 4](4.png)
+![Screenshot 5](5.png)
+![Screenshot 6](7.png)
+![Screenshot 7](Conversation.png)
 
 
 ## Installation
