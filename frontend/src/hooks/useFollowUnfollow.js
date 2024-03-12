@@ -10,6 +10,7 @@ const useFollowUnfollow = (user) => {
 	const showToast = useShowToast();
 
 	const handleFollowUnfollow = async () => {
+		
 		if (!currentUser) {
 			showToast("Error", "Please login to follow", "error");
 			return;

@@ -106,6 +106,7 @@ const Actions = ({ post }) => {
 	};
 
 	return (
+		<>
 		<Flex flexDirection='column'>
 			<Flex gap={3} my={2} onClick={(e) => e.preventDefault()}>
 				<svg
@@ -182,6 +183,7 @@ const Actions = ({ post }) => {
 				</ModalContent>
 			</Modal>
 		</Flex>
+		</>
 	);
 };
 
