@@ -20,12 +20,6 @@ cloudinary.config({
 	api_secret: process.env.CLOUDINARY_API_SECRET,
 });
 
-// Use the cors middleware
-app.use(cors({
-  origin: "https://iiitu-connect.netlify.app",  // Allow requests from this origin
-  methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
-  credentials: true,  // Allow credentials (cookies, authorization headers, etc.)
-}));
 
 // Middlewares
 app.use(express.json({ limit: "50mb" })); // To parse JSON data in the req.body
